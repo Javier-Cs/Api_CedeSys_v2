@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Api_CedeSys_v2.csproj" />
+  <Project Path="Api_CedeSys_v2.Tests/Api_CedeSys_v2.Tests.csproj" />
+</Solution>
