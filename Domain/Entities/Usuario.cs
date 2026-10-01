@@ -15,7 +15,13 @@ namespace Api_CedeSys_v2.Domain.Entities
         public string UrlImgUsuario { get; set; } = string.Empty;
         public bool EstadoUsuario { get; set; } = true;
         public bool IsDeleted { get; set; } = false;
+
+
         public DateTime? UltimoLogin { get; set; }
+        public int IntentosFallidos { get; set; } = 0;
+
+
+        public DateTime? BloqueadoHasta { get; set; }
         public DateTime FechaCreacionUsuario { get; set; }
         public DateTime FechaModificacionUsuario { get; set; }
 

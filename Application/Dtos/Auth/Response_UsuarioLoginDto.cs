@@ -2,9 +2,9 @@
 {
     public class Response_UsuarioLoginDto
     {
-        public string Token { get; set; } = string.Empty;
-        public DateTime Expiracion { get; set; }
-        public Response_UserDto UsuarioResponseDto { get; set; } = null!;
+        public bool Estado { get; set; }
+        public DateTime FechaExpedicion { get; set; }
+        public DateTime FechaExpiracion { get; set; }
 
     }
 }

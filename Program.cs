@@ -1,5 +1,4 @@
-using Api_CedeSys_v2.Application.Interfaces;
-using Api_CedeSys_v2.Application.Services;
+using Api_CedeSys_v2.Application.Services.Auth;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);

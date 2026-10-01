@@ -1,6 +1,6 @@
 ﻿using Api_CedeSys_v2.Application.Dtos.Auth;
 
-namespace Api_CedeSys_v2.Application.Interfaces
+namespace Api_CedeSys_v2.Application.Services.Auth
 {
     public interface IAuthService
     {

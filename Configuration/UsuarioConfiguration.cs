@@ -72,6 +72,15 @@ namespace Api_CedeSys_v2.Configuration
                 .HasDefaultValue(false)
                 .IsRequired();
 
+            builder.Property(x => x.IntentosFallidos)
+                .HasColumnName("intentos_fallidos")
+                .HasDefaultValue(0)
+                .IsRequired();
+
+            builder.Property(x => x.BloqueadoHasta)
+                .HasColumnName("bloqueado_hasta")
+                .IsRequired(false);
+
             builder.Property(x => x.UltimoLogin)
                 .HasColumnName("ultimo_login")
                 .IsRequired(false);

@@ -40,9 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Common\" />
-    <Folder Include="Infraestructure\Security\" />
   </ItemGroup>
 
 </Project>
